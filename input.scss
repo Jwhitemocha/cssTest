@@ -395,3 +395,266 @@ $font-stack: Avenir, sans-serif;
     overflow: hidden;
 }
 
+.featuresContainer {
+    width: 100%;
+    height: 1026px;
+    opacity: 1;
+    position: absolute;
+    top: 1613px;
+    left: 220px;
+    overflow: hidden;
+}
+
+.featuresHeader { 
+    width: 548px;
+    height: 160px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 287px;
+    overflow: hidden;
+}
+
+.featuresTitle { 
+    width: 405px;
+    color: #212353;
+    position: absolute;
+    top: 0px;
+    left: 89px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    opacity: 1;
+    text-align: center;
+}
+
+.featuresPar { 
+    width: 584px;
+    color: #4B5D68;
+    position: absolute;
+    top: 102px;
+    left: 0px;
+    font-family: $font-stack;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
+    opacity: 1;
+    text-align: center;
+}
+
+.searchContainer { 
+    width: 531px;
+    height: 388px;
+    opacity: 1;
+    position: absolute;
+    top: 229px;
+    left: 19px;
+    overflow: hidden;
+}
+
+.searchBox { 
+    width: 442px;
+    height: 358px;
+    background: #68C9BA;
+    opacity: .1;
+    border-radius: 50px;
+    top: 30px;
+    left: 89px;
+}
+
+.lineThang { 
+    width: 203.82px;
+    height: 118.6px;
+    left: 435px;;
+    top: 227;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(-135deg);
+    position: absolute;
+}
+
+.circleThang { 
+    width: 33.7px;
+    height: 19px;
+    opacity: 1;
+    position: absolute;
+    top: 73px;
+    left: 382px;
+    border: 1.5px solid #FFFFFF;
+    transform: rotate(20.72deg);
+}
+
+.searchPic { 
+    width: 232px;
+    height: 211px;
+    background: url("./image3\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 103px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.searchPar { 
+    width: 220px;
+    color: #4B5D68;
+    position: absolute;
+    top: 149px;
+    left: 261px;
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    opacity: 1;
+    text-align: left;
+}
+
+.lrnMoreContainer { 
+    width: 127px;
+    height: 26px;
+    opacity: 1;
+    position: absolute;
+    top: 329px;
+    left: 261px;
+    overflow: hidden;
+}
+
+.lrnMoreButton { 
+    width: 87px;
+    color: #212353;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: $font-stack;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.searchArrow { 
+    width: 20px;
+    height: 14px;
+    opacity: 1;
+    position: absolute;
+    top: 6px;
+    left: 107px;
+    overflow: hidden;
+}
+
+.searchArrow1 { 
+    position: absolute;
+    border: 2px solid #9C69E2;
+    width: 14px;
+    height: 5px;
+    opacity: 1;
+    top: 0px;
+    left: 20px;
+}
+
+.searchArrow2 { 
+    position: absolute;
+    border: 2px solid #9C69E2;
+    transform: rotate(90deg);
+    box-sizing: border-box;
+    width: 20px;
+    top: 7px;
+    left: 0px;
+}
+
+.searchTitle { 
+    width: 200px;
+    color: #212353;
+    position: absolute;
+    top: 79px;
+    left: 261px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.printContainer { 
+    width: 550px;
+    height: 358px;
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.printBox { 
+    width: 442px;
+    height: 358px;
+    background: #F063B8;
+    opacity: .1;
+    border-radius: 50px;
+}
+
+.printPic { 
+    width: 245px;
+    height: 181px;
+    background: url("./image5\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 123px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.printPar { 
+    width: 220px;
+    color: #4B5D68;
+    position: absolute;
+    top: 119px;
+    left: 280px;
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.printLrnMore { 
+    width: 127px;
+    height: 26px;
+    opacity: 1;
+    position: absolute;
+    top: 299px;
+    left: 280px;
+    overflow: hidden;
+}
+
+.printLrnMoreBtn { 
+    width: 87px;
+    color: #212353;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: $font-stack;
+    font-weight: 800;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.printTitle { 
+    width: 200px;
+    color: #212353;
+    position: absolute;
+    top: 49px;
+    left: 280px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+}
