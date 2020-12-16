@@ -1,9 +1,15 @@
+* { 
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
 $font-stack: Avenir, sans-serif;
 
 .wholePage { 
     width: 100%;
     height: 4350px;
-    background: #E5E5E5;
+    background: #FFFFFF;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -313,3 +319,79 @@ $font-stack: Avenir, sans-serif;
     border-bottom-right-radius: 20px;
     overflow: hidden;
 }
+
+.storageContainer { 
+    width: 100%;
+    height: 560px;
+    opacity: 1;
+    position: absolute;
+    top: 903px;
+    left: 240px;
+    overflow: hidden;
+}
+
+.storageBox { 
+    width: 100%;
+    height: 560px;
+    color: #F063B8;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+.storageText { 
+    width: 475px;
+    height: 310px;
+    opacity: 1;
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    overflow: hidden;
+}
+
+.storagePar { 
+    width: 475px;
+    color: #4B5D68;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    font-family: $font-stack;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.storageTitle { 
+    width: 475px;
+    color: #212353;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+}
+
+.storagePic { 
+    width: 477px;
+    height: 504px;
+    background: url("./image2\ .png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 31px;
+    left: 11px;
+    overflow: hidden;
+}
+
