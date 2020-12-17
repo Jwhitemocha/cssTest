@@ -657,4 +657,124 @@
   text-align: center;
 }
 
+.accessContainer {
+  width: 544px;
+  height: 394px;
+  opacity: 1;
+  position: absolute;
+  top: 260px;
+  left: 593px;
+  overflow: hidden;
+}
+
+.accessBox {
+  width: 442px;
+  height: 358px;
+  background: #9C69E2;
+  opacity: 0.1;
+  position: absolute;
+  top: 0px;
+  left: 102px;
+}
+
+.accessPic {
+  width: 241px;
+  height: 185px;
+  background: url("./image4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 71px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.accessPar {
+  width: 220px;
+  color: #4B5D68;
+  position: absolute;
+  top: 119px;
+  left: 274px;
+  font-family: Avenir, sans-serif;
+  font-weight: Book;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.accessTitle {
+  width: 200px;
+  color: #212353;
+  position: absolute;
+  top: 49px;
+  left: 274px;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.securityContainer {
+  width: 539px;
+  height: 364px;
+  opacity: 1;
+  position: absolute;
+  top: 661px;
+  left: 598px;
+  overflow: hidden;
+}
+
+.securityBox {
+  width: 442px;
+  height: 358px;
+  background: #2D9CDB;
+  opacity: 0.1;
+  position: absolute;
+  top: 6px;
+  left: 97px;
+}
+
+.securityPic {
+  width: 230px;
+  height: 201px;
+  background: url("./image6 1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 92px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.securityPar {
+  width: 220px;
+  color: #4B5D68;
+  position: absolute;
+  top: 125px;
+  left: 269px;
+  font-family: Avenir, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.securityTitle {
+  width: 200px;
+  color: #212353;
+  position: absolute;
+  top: 55px;
+  left: 269px;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
 /*# sourceMappingURL=style.css.map */
